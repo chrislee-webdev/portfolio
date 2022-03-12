@@ -5,41 +5,22 @@
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    z-index: 9999;
 }
 
-/*header and nav styling*/
-header {
-    background-color: beige;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 24px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+header{
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-header nav, header h1 {
-    margin: 30px;
-    padding: 0;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-}
-
-header nav ul li{
-    margin-left: 20px
-}
-
-header a {
+header nav ul a {
     text-decoration: none;
-    color: black;
-    font-size: 1.55vw;
+    color: white
+}
+
+section {
+    margin: 0 10px 5px 10px;
 }
