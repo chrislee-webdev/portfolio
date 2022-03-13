@@ -6,6 +6,8 @@
 
 body {
     line-height: 1.5;
+    background-color: cadetblue;
+    color: white;
 }
 
 header{
@@ -25,43 +27,64 @@ section {
     margin: 0 10px 5px 10px;
 }
 
-#project-1 {
+.project-container {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+article {
+    display:inline-block;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.project-label {
+    position:absolute;
+    bottom: 15px;
+    left:0px;
+    background-color: cadetblue;
+    width: 100px;
+}
+
+
+/*
+#project-1,
+#project-2,
+#project-3,
+#project-4,
+#project-5 {
     background-image: url(./images/pexels-matheus-guimarães-611328.jpg);
     height: 250px;
     background-repeat: no-repeat;
     margin-bottom: 15px;
 }
 
+#project-1{
+    background-image: url(./images/pexels-matheus-guimarães-611328.jpg);
+}
+
 #project-2 {
     background-image: url(./images/pexels-aron-visuals-1743165.jpg);
-    height: 250px;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
 }
 
 #project-3 {
     background-image: url(./images/pexels-format-1029757.jpg);
-    height: 250px;
-    opacity: 0.5;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
 }
 
 #project-4 {
     background-image: url(./images/pexels-pixabay-259280.jpg);
-    height: 250px;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
 }
 
 #project-5 {
     background-image: url(./images/pexels-andrew-neel-2312369.jpg);
-    height: 250px;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
 }
 
 .background:hover{
     opacity:0.75;
 }
-
+*/
