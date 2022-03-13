@@ -6,102 +6,71 @@
 
 body {
     line-height: 1.5;
-    background-color: cadetblue;
-    color: white;
 }
 
-header{
-    text-align: center;
-    color: white;
-    background-color: cadetblue;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+/* Header and Nav Styling */
+header {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-header nav ul a,
-#contact ul a {
-    text-decoration: none;
-    color: white
+header h1 {
+    font-size: 36px;
 }
 
-section {
-    margin: 0 10px 5px 10px;
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
-.project-container {
-    position: relative;
-    text-align: center;
-    color:white;
+header nav {
+    display: inline-block;
 }
 
-.project-container img{
-    width: 100%;
+header nav ul{
+    display: flex;
 }
 
-.project-label {
-    position:absolute;
-    bottom: 15px;
-    background-color: cadetblue;
-    width: 75px;
-}
-
-#resume {
-    background-color:white;
-    color: black;
-    padding: 0 10px 0 10px;
-}
-
-#resume ul li {
+header nav ul li {
     list-style: none;
-    padding-left: 10px;
+    padding-left: 25px;
 }
 
-#resume p {
-    padding-bottom: 10px;
+header nav ul li a {
+    text-decoration: none;
 }
 
-span {
-    padding-left: 10px;
+/*About Me Section Styling*/
+#about,
+#projects {
+    width: 75%;
+    margin:auto
 }
 
-footer {
-    padding: 10px;
+#project-list {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-
-/*
-#project-1,
-#project-2,
-#project-3,
-#project-4,
-#project-5 {
-    background-image: url(./images/pexels-matheus-guimarães-611328.jpg);
-    height: 250px;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
+#projects #project-list img {
+    border-radius: 5px;
 }
 
-#project-1{
-    background-image: url(./images/pexels-matheus-guimarães-611328.jpg);
+.project-card img {
+    display: inline-block;
 }
 
-#project-2 {
-    background-image: url(./images/pexels-aron-visuals-1743165.jpg);
+.project-card {
+ margin: 15px;
+ display: flex;
+ justify-content: center;  
 }
-
-#project-3 {
-    background-image: url(./images/pexels-format-1029757.jpg);
+.desc {
+    display:block;
+    margin-left: 15px;
+    padding: 100px 0
 }
-
-#project-4 {
-    background-image: url(./images/pexels-pixabay-259280.jpg);
-}
-
-#project-5 {
-    background-image: url(./images/pexels-andrew-neel-2312369.jpg);
-}
-
-.background:hover{
-    opacity:0.75;
-}
-*/
