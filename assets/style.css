@@ -83,6 +83,11 @@ header nav ul li a:hover {
     justify-content: space-evenly;
 }
 
+#main-project #description {
+    flex: 1 75%;
+    padding-right: 25px;
+}
+
 #description {
     flex: .5
 }
