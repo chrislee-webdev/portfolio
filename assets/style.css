@@ -94,19 +94,23 @@ header nav ul li a:hover {
     margin-top: 25px;
 }
 
-#minor-description {
+.minor-description {
     display:flex;
     flex-direction: column;
     width: 30%;
     margin: 15px;
 }
 
-#minor-description p {
+.minor-description p {
     height: 50px;
 }
 
 .project-img:hover {
     opacity: 0.5;
+}
+
+.project-img {
+    width: 100%;
 }
 
 /*Contact Section Styling*/
@@ -139,10 +143,61 @@ footer {
     background-color: darkgray;
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 769px) {
+    header,
+    #main-project,
+    #contact-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        position: static;
+    }
+
+    header h1, 
+    header img,
+    header nav {
+        margin-bottom: 10px;
+    }
+
+    #description {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #contact h3 {
+        text-align: center;
+    }
+
+    #contact-list {
+        align-items: center;
+    }
+
+    #contact-list li {
+        margin-bottom: 10px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
-    
+    header nav ul,
+    #minor-projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 30px;
+    }
+
+    .minor-description p  {
+        display: none;
+    }
+
+    .minor-description img {
+        margin-left: 15px;
+    }
+
+    #minor-projects .minor-description:not(:last-child) {
+        margin-bottom: 10px
+    }
 }
