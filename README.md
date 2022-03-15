@@ -8,5 +8,5 @@ Include developer name, photo and contact links
 Working nav links
 Images of developer projects of which the first project has to have a larger 
 image than the others
-Images work as links top deployed projects
-A responsive layout
+Images work as links top deployed projects (only the firt project has a working link as the others are placeholders)
+A responsive layout (breakpoint at 320px and 768px)
